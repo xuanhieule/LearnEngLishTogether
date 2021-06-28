@@ -1,0 +1,48 @@
+:root{
+    --yellow : #fce76a;
+    --white : #fffffe;
+    --black: #0d0800;
+    --gray: #7D785A;
+    --text-color: #333;
+}
+*{
+    box-sizing: inherit;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    font-weight: 400;
+    line-height: 16px;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+} 
+input:focus{
+    outline: none;
+}
+#zmmtg-root{
+    /* background-color: #fafafa !important;*/
+    display: none !important; 
+}
+

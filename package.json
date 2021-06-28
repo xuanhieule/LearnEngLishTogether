@@ -1,0 +1,79 @@
+{
+  "name": "let",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@daily-co/daily-js": "^0.11.1",
+    "@fullcalendar/daygrid": "^5.6.0",
+    "@fullcalendar/interaction": "^5.6.0",
+    "@fullcalendar/react": "^5.6.0",
+    "@hookform/error-message": "0.0.5",
+    "@hookform/resolvers": "^1.3.5",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@reduxjs/toolkit": "^1.5.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "@zoomus/websdk": "^1.9.1",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "classnames": "^2.3.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "formstate": "^2.0.0",
+    "gatsby-plugin-material-ui": "^3.0.1",
+    "material-ui-search-bar": "^1.0.0",
+    "mobx-react": "^7.1.0",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "notistack": "^1.0.5",
+    "peer": "^0.6.1",
+    "peerjs": "^1.3.2",
+    "react": "^17.0.1",
+    "react-chat-popup": "^1.1.2",
+    "react-copy-to-clipboard": "^5.0.3",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^6.15.4",
+    "react-paginate": "^7.1.2",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-swipeable-views": "^0.13.9",
+    "redux": "^4.0.5",
+    "simple-peer": "^9.11.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^4.0.0",
+    "styled-components": "^5.2.3",
+    "universal-cookie": "^4.0.4",
+    "web-vitals": "^1.1.0",
+    "wrtc": "^0.4.7",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+.makeStyles-chatRom-49 {
+    color: rgba(0, 0, 0, 0.54);
+    width: 445px;
+    border: 1px solid #83eaf1;
+    padding: 8px;
+    overflow: scroll;
+    margin-top: 10px;
+    overflow-x: hidden important;
+    overflow-y: hidden !important; 
+    text-align: center;
+}
